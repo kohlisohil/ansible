@@ -1,6 +1,7 @@
 - hosts: all
 #  connection: local
   gather_facts: no
+  remote_user: ec2-user
   tasks:
     - shell: ps -ef | grep itself | head -n5 > /home/ec2-user/test.ps
       register: ps
