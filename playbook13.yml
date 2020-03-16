@@ -11,4 +11,4 @@
 
     # Print all contents of the shell task's output.
     - debug: var=ps.rc
-    - debug: var={{ var }}
+    - debug: var={{ var1 }}
