@@ -5,6 +5,7 @@
   tasks:
     - shell: ps -ef | grep itself | head -n5 > /home/ec2-user/test.ps
       register: ps
+    - shell: echo {{ var1 }} > /home/ec2-user/test.ps1
 
     # Print the shell task's stdout.
     - debug: msg={{ ps.stdout }}
