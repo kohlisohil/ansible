@@ -8,4 +8,3 @@ HI THIS IS SOHIL KOHLI AND MANI KHATRI
 #Auth,merge
 #Dev1
 #Auth
-stage
